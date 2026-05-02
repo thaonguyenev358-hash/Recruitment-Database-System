@@ -5,21 +5,28 @@ Dự án này xây dựng một hệ thống cơ sở dữ liệu quan hệ cho 
 **Trọng tâm của dự án là:**
 
 Thiết kế database schema chặt chẽ
+
 Xây dựng business logic trực tiếp tại tầng database
+
 Đảm bảo tính toàn vẹn và nhất quán dữ liệu (data integrity)
 
 ## 🎯 Mục tiêu (Objectives)
 
 Mô hình hóa dữ liệu cho hệ thống tuyển dụng thực tế
+
 Xây dựng các ràng buộc và logic nghiệp vụ ở tầng database
+
 Đảm bảo dữ liệu hợp lệ trước khi được ghi vào hệ thống
 
 ## 🏗️ Thiết kế hệ thống (Database Design)
 🔹 **Các thực thể chính**
 
 User: thông tin người dùng (ứng viên / nhà tuyển dụng)
+
 Job: thông tin tin tuyển dụng
+
 Application: hồ sơ ứng tuyển của ứng viên
+
 Inbox: hệ thống nhắn tin giữa các bên
 
 🔹 **Đặc điểm thiết kế**
